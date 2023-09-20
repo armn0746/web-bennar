@@ -1,0 +1,170 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* 1st page projcet clos */
+.header {
+   
+    background-image: url('./img/cool-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  150%;
+    /* background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,164,22,1) 0%, rgba(27,79,177,1) 0%, rgba(27,79,177,1) 0%, rgba(27,79,177,1) 0%, rgba(30,35,169,1) 0%, rgba(130,146,255,1) 0%, rgba(18,233,206,1) 0%, rgba(64,121,9,1) 100%, rgba(255,51,0,1) 100%); */
+}
+
+.ict-title {
+    color: white;
+    padding-top: 45px;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+}
+.naver {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.benar-content {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.benar-title {
+    padding-left: 80px;
+    font-size: 25px;
+}
+span {
+    color: yellow;
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid;
+    border-color: aqua;
+    color: aqua;
+    padding: 15px 18px;
+    border-radius: 30px 0px;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: aqua;
+    border: 2px solid;
+    border-color: rgb(0, 81, 255);
+    color: black;
+    padding: 15px 18px;
+    border-radius: 30px 0px;
+    font-size: 19px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.img-logo {
+    display: flex;
+    gap: 15px;
+}
+.logo-title {
+    margin-top: 03px;
+}
+.benar-title h1 {
+    font-size: 60px;
+}
+.benar-title p {
+    margin: 30px 0px;
+    font-size: 18px;
+}
+.benar-img{
+    width: 100%;
+    margin-top: -50px;
+    margin-right: 30px;
+}
+.call-info {
+    margin-bottom: 20px;
+    display: flex;
+}
+.call {
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 10%;
+
+}
+.number {
+    margin-top: 58px;
+    margin-left: -220px;
+}
+
+
+
+/* 2nd page project  */
+.main {
+    border: 2px solid;
+    border-radius: 200px 200px 0px 0px ;
+    background-image: url('./img/benar.png');
+    background-repeat: no-repeat;
+    border-color: blue;
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+}
+.main h1 {
+    margin-bottom: 27px;
+}
+.all-about {
+    align-items: center;
+    display: flex;
+}
+.map {
+    margin-bottom: 20px;
+}
+.about img {
+    border-radius: 10px;
+}
+.about {
+    height: 50%;
+    width: 50%;
+}
+.about img {
+    width: 08%;
+    height: 10%;
+}
+.about-info {
+    width: 50%;
+}
+
+/* 3nd page project clos */
+.local {
+    width: 70%;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 104px;
+}
+.profile h1 {
+    margin: 100px;
+    border: 7px solid;
+     background-color: transparent;
+     border-color: green;
+     padding: 70px;
+    text-align: center;
+}
+.local img {
+    width: 200%
+}
+.book {
+    margin-left: 10 0px;
+    margin-right: 106px;
+    width: 20%;
+}
+.many {
+    margin-right: 100px;
+    width: 20%;
+
+}
+.mobile  {
+    margin-left: 20px;
+    width: 20%;
+}
